@@ -1,4 +1,4 @@
-/* Populate tabla tareas */
+/* llenado de tabla tareas */
 INSERT INTO tareas (nombre, descripcion, duracion) VALUES('mantenimiento celulares', 'arreglar los celulares','1 dia');
 INSERT INTO tareas (nombre, descripcion, duracion) VALUES('limpieza de equipos', 'mantenimientos preventivo','5 horas');
 INSERT INTO tareas (nombre, descripcion, duracion) VALUES('Actualizacion de equipos', 'actualizacion de software','3 horas');
