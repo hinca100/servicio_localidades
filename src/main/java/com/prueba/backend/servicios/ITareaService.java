@@ -2,14 +2,9 @@ package com.prueba.backend.servicios;
 
 import java.util.List;
 
-import com.prueba.backend.entidades.Tareas;
+import com.prueba.backend.entidades.GccobranzasGestor;
 
 public interface ITareaService {
-	public List<Tareas> findAll();
+	public List<GccobranzasGestor> findAll2();
 
-	public void save(Tareas tareas);
-
-	public Tareas findById(Long id);
-
-	public void delete(Tareas tareas);
 }
